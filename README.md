@@ -1,4 +1,5 @@
 # Task Master AI
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-task-manager-abc.streamlit.app/)
 מחולל תתי-משימות חכם מבוסס בינה מלאכותית (Google Gemini).
 
 ## סקירה כללית
