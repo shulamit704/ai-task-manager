@@ -20,4 +20,4 @@
 2. הגדרת מפתח API בקובץ ה-Secrets.
 3. הרצה: streamlit run app.py
 
-<img width="998" height="876" alt="image" src="https://github.com/user-attachments/assets/e388581f-308b-49c4-a5fd-18b7eed9f103" />
+<img  height="500" alt="image" src="https://github.com/user-attachments/assets/e388581f-308b-49c4-a5fd-18b7eed9f103" />
