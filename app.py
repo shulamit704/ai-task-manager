@@ -14,7 +14,7 @@ except:
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key={API_KEY}"
 
 # הגדרות דף
-st.set_page_config(page_title="Task Master AI", page_icon="🎯", layout="centered")
+st.set_page_config(page_title="Task Master AI", layout="centered")
 
 # עיצוב CSS - נקי ומתאים לענן
 st.markdown("""
