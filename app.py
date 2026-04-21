@@ -4,10 +4,6 @@ import json
 import os
 import urllib3
 
-# ביטול אזהרות SSL עבור נטפרי
-os.environ['CURL_CA_BUNDLE'] = ''
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 # הגדרות API
 API_KEY = st.secrets["API_KEY"]
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key={API_KEY}"
