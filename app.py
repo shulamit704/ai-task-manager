@@ -60,7 +60,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🎯 Task Master AI")
+st.title("Task Master AI")
 st.markdown("#### פירוק משימות מהיר לצעדים פשוטים")
 
 # ממשק המשתמש
