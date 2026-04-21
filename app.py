@@ -105,7 +105,7 @@ if generate_btn:
             }
             
             try:
-                response = requests.post(URL, headers={'Content-Type': 'application/json'}, data=json.dumps(payload), verify=False)
+                response = requests.post(URL, headers={'Content-Type': 'application/json'}, data=json.dumps(payload))
                 
                 if response.status_code == 200:
                     result = response.json()
