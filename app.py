@@ -9,7 +9,7 @@ os.environ['CURL_CA_BUNDLE'] = ''
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # הגדרות API
-API_KEY = "AIzaSyCFBw11fNWD4w72cJK2SXuJ67ssP8NI1Oo"
+API_KEY = "your api key"
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent?key={API_KEY}"
 
 # הגדרות דף - שימוש במצב רחב כדי לנצל את צדי המסך אם צריך
